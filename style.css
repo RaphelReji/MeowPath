@@ -241,3 +241,53 @@ a{
     background-color: var(--button-secondary-hover);
     border: var(--border-hover);
 }
+#first-intro{
+    padding: 30px;
+}
+#intro-hr{
+    border: 1px solid var(--border);
+}
+#second-h1{
+    text-align: center;
+    font-size: 25px;
+    color: var(--text-primary);
+    text-transform: capitalize;
+}
+#second-p{
+    text-align: center;
+    font-weight: 400;
+}
+
+.select-card{
+    background-color: var(--surface);
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.select-card-img{
+    width: 50px;
+    
+}
+.select-card-h1{
+    font-weight: bold;
+    padding: 10px;
+    
+}
+.select-card-p{
+    text-align: left;
+    text-align: start;
+}
+.select-card-btn{
+    color: var(--blue);
+    text-align: start;
+}
+
+#home-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 30px;
+    row-gap: 30px;
+    padding: 50px;
+}
