@@ -1,5 +1,58 @@
+:root {
+    --bg: #0B120E;
+}
+
+* {
+    box-sizing: border-box;
+}
 body{
-    background: #3b82f61a;
+    margin: 0;
+    background:  #050914;
     border: 1px solid #3b82f64d;
+    color:   #F8FAFC;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.code-label {
+    font-family: "JetBrains Mono", monospace;
+}
+
+.top-bar {
+  height: 56px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #050914;
+  border-bottom: 1px solid #1D2A40;
+}
+.brand{
+  font-weight: 600;
+  font-size: 18px;
+  color:#fff;
+  z-index: 1;
+}
+#brand-span{
     color: #60A5FA;
+}
+nav{
+    display: flex;
+    gap:40px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+    color: #F8FAFC;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+}
+#toggle{
+    font-size: 20px;
+    height:40px;
+    width: 40px;
+    background-color: #60A5FA;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
 }
