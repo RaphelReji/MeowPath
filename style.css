@@ -1,5 +1,129 @@
 :root {
-    --bg: #0B120E;
+    
+    /* Backgrounds */
+    --bg-main: #050914;
+    --bg-secondary: #080D19;
+    --bg-tertiary: #0B1220;
+
+    /* Surfaces / Cards */
+    --surface: #0C1422;
+    --surface-hover: #111C2E;
+    --surface-active: #16243A;
+    --surface-elevated: #101A2B;
+
+    /* Borders */
+    --border: #1D2A40;
+    --border-light: #263650;
+    --border-hover: #344766;
+
+    /* Text */
+    --text-primary: #F8FAFC;
+    --text-secondary: #CBD5E1;
+    --text-tertiary: #94A3B8;
+    --text-muted: #64748B;
+    --text-disabled: #475569;
+
+    /* Primary */
+    --primary: #6366F1;
+    --primary-hover: #7C3AED;
+    --primary-light: #8B5CF6;
+    --primary-soft: rgba(99, 102, 241, 0.12);
+    --primary-glow: rgba(99, 102, 241, 0.25);
+
+    /* Blue */
+    --blue: #3B82F6;
+    --blue-hover: #60A5FA;
+    --blue-soft: rgba(59, 130, 246, 0.12);
+
+    /* Purple */
+    --purple: #A855F7;
+    --purple-hover: #C084FC;
+    --purple-soft: rgba(168, 85, 247, 0.12);
+
+    /* Green */
+    --green: #22C55E;
+    --green-hover: #4ADE80;
+    --green-soft: rgba(34, 197, 94, 0.12);
+
+    /* Pink */
+    --pink: #EC4899;
+    --pink-hover: #F472B6;
+    --pink-soft: rgba(236, 72, 153, 0.12);
+
+    /* Cyan */
+    --cyan: #06B6D4;
+    --cyan-hover: #22D3EE;
+    --cyan-soft: rgba(6, 182, 212, 0.12);
+
+    /* Yellow */
+    --yellow: #EAB308;
+    --yellow-hover: #FACC15;
+    --yellow-soft: rgba(234, 179, 8, 0.12);
+
+    /* Orange */
+    --orange: #F97316;
+    --orange-hover: #FB923C;
+    --orange-soft: rgba(249, 115, 22, 0.12);
+
+    /* Red */
+    --red: #EF4444;
+    --red-hover: #F87171;
+    --red-soft: rgba(239, 68, 68, 0.12);
+
+    /* YouTube */
+    --youtube: #FF0033;
+    --youtube-hover: #FF3355;
+
+    /* Success / Warning / Error */
+    --success: #22C55E;
+    --warning: #F59E0B;
+    --error: #EF4444;
+    --info: #3B82F6;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.30);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.40);
+
+    /* Glows */
+    --glow-primary: 0 0 25px rgba(99, 102, 241, 0.18);
+    --glow-blue: 0 0 25px rgba(59, 130, 246, 0.18);
+    --glow-purple: 0 0 25px rgba(168, 85, 247, 0.18);
+
+    /* Inputs */
+    --input-bg: #080F1C;
+    --input-border: #263650;
+    --input-focus: #6366F1;
+    --placeholder: #64748B;
+
+    /* Buttons */
+    --button-primary-bg: #6366F1;
+    --button-primary-hover: #7C3AED;
+    --button-primary-text: #FFFFFF;
+
+    --button-secondary-bg: #111C2E;
+    --button-secondary-hover: #16243A;
+    --button-secondary-text: #F8FAFC;
+    --button-secondary-border: #263650;
+
+    /* Navigation */
+    --nav-bg: rgba(5, 9, 20, 0.88);
+    --nav-border: #1D2A40;
+    --nav-active: #8B5CF6;
+    --nav-hover: #CBD5E1;
+
+    /* Footer */
+    --footer-bg: #030610;
+    --footer-border: #172238;
+
+    /* Code / Technology */
+    --code-bg: #080D19;
+    --code-border: #1D2A40;
+    --code-text: #A5B4FC;
+
+    /* Selection */
+    --selection-bg: #6366F1;
+    --selection-text: #FFFFFF;
 }
 
 * {
