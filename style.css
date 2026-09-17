@@ -131,9 +131,8 @@
 }
 body{
     margin: 0;
-    background:  #050914;
-    border: 1px solid #3b82f64d;
-    color:   #F8FAFC;
+    background:var(--bg-main);
+    color:  var(--text-primary);
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 .code-label {
@@ -146,8 +145,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #050914;
-  border-bottom: 1px solid #1D2A40;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--nav-border);
 }
 .brand{
   font-weight: 600;
@@ -156,7 +155,7 @@ body{
   z-index: 1;
 }
 #brand-span{
-    color: #60A5FA;
+    color: var(--blue);
 }
 nav{
     display: flex;
@@ -175,8 +174,70 @@ a{
     font-size: 20px;
     height:40px;
     width: 40px;
-    background-color: #60A5FA;
+    background-color: var(--text-tertiary);
     border-radius: 50%;
     text-align: center;
     padding-top: 10px;
+}
+
+#home-h1{
+    font-size: 50px;
+    font-weight: bold;
+    width:450px;
+}
+#home-paragraph{
+    width: 370px;
+    line-height: 25px;
+   text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+#find-path-btn{
+    background-color: var(--button-primary-bg);
+    padding: 10px 20px;
+    border: 1px solid var(--button-secondary-border);
+    border-radius: 10px;
+    color: var(--button-primary-text);
+    font-weight: bold;
+    transition: 0.3s;
+}
+#find-path-btn:hover{
+     background-color: var(--button-primary-hover);
+    border: 1px solid var(--border-hover);
+}
+#how-works-btn{
+    background-color: var(--button-secondary-bg);
+    padding: 10px 20px;
+    border: 1px solid var(--button-secondary-border);
+    border-radius: 10px;
+    color: var(--button-primary-text);
+    font-weight: bold;
+    transition: 0.3s;
+}
+#how-works-btn:hover{
+     background-color: var(--button-secondary-hover);
+    border: 1px solid var(--border-hover);
+}
+#grid-what-get{
+    width: max-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+.what-get{
+    background-color: var(--button-secondary-bg);
+    color: var(--text-primary);
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid var(--border);
+    transition: 0.3s;
+}
+.what-get:hover{
+    background-color: var(--button-secondary-hover);
+    border: var(--border-hover);
 }
