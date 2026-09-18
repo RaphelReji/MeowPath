@@ -1,5 +1,4 @@
 :root {
-    
     /* Backgrounds */
     --bg-main: #050914;
     --bg-secondary: #080D19;
@@ -200,7 +199,9 @@ a{
     border: 1px solid var(--button-secondary-border);
     border-radius: 10px;
     color: var(--button-primary-text);
-    font-weight: bold;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 20px;
     transition: 0.3s;
 }
 #find-path-btn:hover{
@@ -213,7 +214,10 @@ a{
     border: 1px solid var(--button-secondary-border);
     border-radius: 10px;
     color: var(--button-primary-text);
-    font-weight: bold;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
     transition: 0.3s;
 }
 #how-works-btn:hover{
@@ -239,7 +243,7 @@ a{
 }
 .what-get:hover{
     background-color: var(--button-secondary-hover);
-    border: var(--border-hover);
+    border:2px solid var(--border-hover);
 }
 #first-intro{
     padding: 30px;
@@ -265,6 +269,14 @@ a{
     border-radius: 10px;
     padding: 10px;
     text-align: center;
+    transition: 0.3s;
+}
+.select-card:hover{
+    background-color: var(--surface-hover);
+    transform: scale(1.02) translateY(-10px);
+}
+.select-card:active{
+    background-color: var(--surface-active);
 }
 .select-card-img{
     width: 50px;
@@ -316,4 +328,33 @@ footer{
 #footer-copyright{
     font-size: auto;
     margin-left: 10px;
+}
+#footer-msg{
+    margin-right: 20px;
+}
+footer h3{
+    margin-left: 20px;
+}
+#last-card{
+    width: fit-content;
+    background-color: var(--surface);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+#last-card:hover{
+    background-color: var(--surface-hover);
+}
+#last-card:active{
+    background-color: var(--surface-active);
+}
+#last-card-span{
+    color: var(--red);
+}
+#last-card-p{
+    color: var(--text-secondary);
 }
