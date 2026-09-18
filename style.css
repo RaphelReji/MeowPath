@@ -358,3 +358,64 @@ footer h3{
 #last-card-p{
     color: var(--text-secondary);
 }
+
+
+
+/* build page */
+
+#build-main-head{
+     color: var(--text-primary);
+     font-size: 60px;
+     text-align: center;
+     font-weight: 800;
+     margin-bottom: 10px;
+     padding: 10px;
+}
+#build-main-head-span{
+    color: var(--info);
+    margin-bottom: 0;
+}
+#build-main-head-text{
+    font-size: 18px;
+    color: var(--text-secondary);
+    max-width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+}
+.build-card{
+    width: fit-content;
+    background-color: var(--surface);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.build-card-img{
+    background-color: var(--surface-active);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.build-subgrid-h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.build-subgrid{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 15px;
+    align-items:center ;
+    margin-bottom: 20px;
+}
+.green-tick{
+    color: var(--success);
+    width: 40px;
+    height:30px;
+    border-radius: 50%;
+    border: 1px solid var(--success);
+    padding: 2px;
+}
+.can-build-things{
+    line-height: 30px;
+}
