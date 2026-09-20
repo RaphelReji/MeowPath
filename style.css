@@ -493,3 +493,38 @@ footer h3 {
   font-size: 20px;
   border-radius: 10px;
 }
+
+
+/* tutorials page */
+#tutorials-page{
+ padding: 10px;
+}
+#tutorials-first-grid{
+  display: grid;
+   grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+#tutorial-quote-box{
+  background-color: var(--info);
+  width: max-content;
+  padding: 2px 4px;
+  border-radius: 10px;
+  text-align: center;
+  font-family:"JetBrains Mono", monospace ;
+  margin:10px 0;
+}
+#tutorial-h1{
+  color: var(--text-primary);
+  font-size: 40px;
+  font-weight: 600;
+}
+#tutorial-h1-blue{
+  color: var(--blue);
+  font-size: 40px;
+  font-weight: 600;
+}
+#tutorial-h1-p{
+  font-size: 16px;
+  width: 400px;
+}
