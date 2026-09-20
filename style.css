@@ -386,14 +386,13 @@ footer h3 {
   border-radius: 15px;
   transition: 0.3s;
 }
-.build-card:hover{
+.build-card:hover {
   background-color: var(--surface-hover);
   transform: scale(1.02) translateY(-10px);
 }
 .build-card:active {
   background-color: var(--surface-active);
 }
-
 
 .build-card-img {
   background-color: var(--surface-active);
@@ -472,17 +471,17 @@ footer h3 {
   padding: 20px;
   border: 1.5px solid var(--primary);
   border-radius: 15px;
-  display: flex
+  display: flex;
 }
-#build-footer-card-h1{
+#build-footer-card-h1 {
   font-size: 30px;
   font-weight: bold;
 }
-#build-footer-card-text{
+#build-footer-card-text {
   font-size: 16px;
   width: 400px;
 }
-#build-footer-card-btn{
+#build-footer-card-btn {
   background-color: var(--primary);
   margin-left: 10px;
   padding: 10px 20px;
@@ -494,4 +493,3 @@ footer h3 {
   font-size: 20px;
   border-radius: 10px;
 }
-

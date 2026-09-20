@@ -1,163 +1,162 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MeowPath</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="brand" id="brand">Meow<span id="brand-span">Path</span></div>
 
-</head>
-<body>
-
-  <header class="top-bar">
-
-        <div class="brand" id="brand">
-           Meow<span id="brand-span">Path</span>
-        </div>
-
-    <nav>
+      <nav>
         <a href="index.html">Home</a>
         <a href="build.html">What Can I Build?</a>
-        <a href="#">Tutorials</a>
+        <a href="tutorials.html">Tutorials</a>
         <a href="#">About</a>
-    </nav>
+      </nav>
 
-    <div id="toggle">◐</div>
-  </header>
+      <div id="toggle">◐</div>
+    </header>
 
-<main>
+    <main>
+      <div id="first-intro">
+        <div id="home-h1">
+          What do you want to
+          <span id="brand-span">build?</span>
+        </div>
 
-  <div id="first-intro">
-    <div id="home-h1">
-        What do you want to 
-        <span id="brand-span">build?</span>
-    </div>
+        <div id="home-paragraph">
+          Tell us what you want to create. Meowpath will show you what to
+          learn,the right order, and the best YouTube tutorials to get you
+          there.
+        </div>
 
-    <div id="home-paragraph">
-        Tell us what you want to create.
-        Meowpath will show you what to learn,the right order,
-        and the best YouTube tutorials to get you there.
-    </div>
+        <button id="find-path-btn">Find My Path</button>
+        <button id="how-works-btn">How It Works</button>
 
-    <button id="find-path-btn">Find My Path</button>
-    <button id="how-works-btn">How It Works</button>
+        <div id="grid-what-get">
+          <div class="what-get">Beginner Friendly</div>
+          <div class="what-get">Free Resources</div>
+          <div class="what-get">YouTube Tutorials</div>
+        </div>
+      </div>
+      <hr id="intro-hr" />
 
-    <div id="grid-what-get">
-        <div class="what-get">Beginner Friendly</div>
-        <div class="what-get">Free Resources</div>
-        <div class="what-get">YouTube Tutorials</div>
-    </div>
-  </div>
-  <hr id="intro-hr">
+      <div id="second-main">
+        <h1 id="second-h1">What can you build?</h1>
 
+        <div id="second-p">
+          Different goals need different skills.Choose your path and start
+          building
+        </div>
 
-  <div id="second-main">
-
-    <h1 id="second-h1">
-        What can you build?
-    </h1>
-
-    <div id="second-p">
-        Different goals need different skills.Choose your path and start building
-    </div>
-
-    <div id="home-cards">
-      
-        <div class="select-card">
-            <img src="assets/icons/webdev.png" class="select-card-img">
+        <div id="home-cards">
+          <div class="select-card">
+            <img src="assets/icons/webdev.png" class="select-card-img" />
             <div class="select-card-h1">Web Development</div>
-            <p class="select-card-p">Websites, Webapps, Portfolios, Blogs, Dashboards and more.</p>
+            <p class="select-card-p">
+              Websites, Webapps, Portfolios, Blogs, Dashboards and more.
+            </p>
             <div class="select-card-btn">Explore</div>
-        </div>
+          </div>
 
-        <div class="select-card">
-            <img src="assets/icons/game.png" class="select-card-img">
+          <div class="select-card">
+            <img src="assets/icons/game.png" class="select-card-img" />
             <div class="select-card-h1">Game Development</div>
-            <p class="select-card-p">2D games, 3D games,RPGs,Platformers, Puzzle games and more</p>
+            <p class="select-card-p">
+              2D games, 3D games,RPGs,Platformers, Puzzle games and more
+            </p>
             <div class="select-card-btn">Explore</div>
-        </div>
+          </div>
 
-        <div class="select-card">
-            <img src="assets/icons/ai.png" class="select-card-img">
+          <div class="select-card">
+            <img src="assets/icons/ai.png" class="select-card-img" />
             <div class="select-card-h1">AI & Machine Learning</div>
-            <p class="select-card-p">Chatbots, AI models, Data analysis,Image recognition and more.</p>
+            <p class="select-card-p">
+              Chatbots, AI models, Data analysis,Image recognition and more.
+            </p>
             <div class="select-card-btn">Explore</div>
-        </div>
+          </div>
 
-
-        <div class="select-card">
-            <img src="assets/icons/phone.png" class="select-card-img">
+          <div class="select-card">
+            <img src="assets/icons/phone.png" class="select-card-img" />
             <div class="select-card-h1">Moblie Development</div>
-            <p class="select-card-p">Android apps,iOS apps, Cross-platform apps, Utilities and more</p>
+            <p class="select-card-p">
+              Android apps,iOS apps, Cross-platform apps, Utilities and more
+            </p>
             <div class="select-card-btn">Explore</div>
-        </div>
+          </div>
 
-
-        <div class="select-card">
-            <img src="assets/icons/ai2.png" class="select-card-img">
+          <div class="select-card">
+            <img src="assets/icons/ai2.png" class="select-card-img" />
             <div class="select-card-h1">Desktop Development</div>
-            <p class="select-card-p">Desktop apps, Tools,Utilities,File managers and more</p>
+            <p class="select-card-p">
+              Desktop apps, Tools,Utilities,File managers and more
+            </p>
             <div class="select-card-btn">Explore</div>
-        </div>
+          </div>
 
-
-        <div class="select-card">
-            <img src="assets/icons/automation.png" class="select-card-img">
+          <div class="select-card">
+            <img src="assets/icons/automation.png" class="select-card-img" />
             <div class="select-card-h1">Automation & Tools</div>
-            <p class="select-card-p">Scripts,Automation,CLI tools, Productivity tools and more.</p>
+            <p class="select-card-p">
+              Scripts,Automation,CLI tools, Productivity tools and more.
+            </p>
             <div class="select-card-btn">Explore</div>
-        </div>
+          </div>
 
-
-
-        <div class="select-card">
-            <img src="assets/icons/data.png" class="select-card-img">
+          <div class="select-card">
+            <img src="assets/icons/data.png" class="select-card-img" />
             <div class="select-card-h1">Data & Analytics</div>
-            <p class="select-card-p">Data analysis,Charts, Reports,Visualization and more</p>
+            <p class="select-card-p">
+              Data analysis,Charts, Reports,Visualization and more
+            </p>
             <div class="select-card-btn">Explore</div>
-        </div>
+          </div>
 
-
-        <div class="select-card">
-            <img src="assets/icons/hardware.png" class="select-card-img">
+          <div class="select-card">
+            <img src="assets/icons/hardware.png" class="select-card-img" />
             <div class="select-card-h1">Hardware / Embedded</div>
-            <p class="select-card-p">Microcontrollers, Robots, Sensors, Smart devices and more.</p>
+            <p class="select-card-p">
+              Microcontrollers, Robots, Sensors, Smart devices and more.
+            </p>
             <div class="select-card-btn">Explore</div>
+          </div>
         </div>
 
-    </div>
+        <div id="last-card">
+          <h1 id="last-card-h1">
+            No More Tutorial <span id="last-card-span">Hunting</span>
+          </h1>
+          <div id="last-card-p">The right and best tutorials for your goal</div>
+        </div>
+      </div>
+      <!--close of 2 main-->
 
-    <div id="last-card">
-        <h1 id="last-card-h1">No More Tutorial <span id="last-card-span">Hunting</span></h1>
-        <div id="last-card-p">The right and best tutorials for your goal</div>
-    </div>
-
-
-  </div><!--close of 2 main-->
-
-<footer>
- <h3>MeowPath</h3>
- <div id="footer-copyright">© 2026 MeowPath. All rights reserved.</div>
+      <footer>
+        <h3>MeowPath</h3>
+        <div id="footer-copyright">© 2026 MeowPath. All rights reserved.</div>
         <div id="footer-navs">
-       <a href="#" class="footer-nav">Home</a>
-        <a href="#" class="footer-nav">What Can I Build?</a>
-        <a href="#" class="footer-nav">Tutorials</a>
-        <a href="#" class="footer-nav">About</a>
+          <a href="#" class="footer-nav">Home</a>
+          <a href="#" class="footer-nav">What Can I Build?</a>
+          <a href="#" class="footer-nav">Tutorials</a>
+          <a href="#" class="footer-nav">About</a>
         </div>
 
         <div id="footer-msg">Made with 💙 for builders</div>
-
-</footer>
-
-</main>
-
+      </footer>
+    </main>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
