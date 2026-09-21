@@ -551,11 +551,11 @@ footer h3 {
 }
 #tutorial-choose-card-h1{
   font-size: 30px;
-  font-weight:500;
+  font-weight:600;
 }
 #tutorial-choose-card-p{
   font-size: 15px;
-  color: var(--text-secondary);
+  color: var(--text-tertiary);
 }
 
 .tutorial-choose-grid-box{
@@ -577,4 +577,56 @@ footer h3 {
 
 #tutorials-large-grid-sub{
   background-color: var(--bg-secondary);
+  border: 2px solid var(--border-hover);
+  border-radius: 10px;
+}
+
+
+#recommend-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+#godot-recommend-img{
+  width:100%;
+  object-position: center;
+  border-radius: 10px;
+}
+#recommend-first-text{
+  background: var(--footer-border);
+  width: max-content;
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: var(--blue);
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#grid-time{
+  display: grid;
+  grid-template-columns: repeat(3,80px);
+  gap:10px;
+}
+.grid-time-box{
+  background-color: var(--text-disabled);
+  color: var(--text-primary);
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+#recommend-h1{
+  font-size: 25px;
+  font-weight: bold;
+
+}
+#recommend-p{
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--text-secondary);
+  margin-top: 5px;
+
 }
