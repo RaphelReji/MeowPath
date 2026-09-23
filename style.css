@@ -590,7 +590,7 @@ footer h3 {
   padding: 20px;
 }
 #godot-recommend-img{
-  width:100%;
+  width:90%;
   object-position: center;
   border-radius: 10px;
 }
@@ -629,4 +629,40 @@ footer h3 {
   color: var(--text-secondary);
   margin-top: 5px;
 
+}
+#recommend-card{
+  background-color: var(--surface);
+  padding: 10px;
+  border-radius: 20px;
+  display: non;
+}
+#recommend-learn{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+align-items: center;
+margin-top: 10px;
+}
+#h1-whatyou{
+  font-size: 20px;
+}
+#learn-points{
+  line-height: 25px;
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+#after-this-h1{
+  font-size: 22px;
+}
+#after-this-p{
+  font-size: 18px;
+  color: var(--text-secondary);
+  line-height: 25px;
+}
+#recommend-godot-btn{
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  font-size: 18px;
+  margin-top: 10px;
 }
