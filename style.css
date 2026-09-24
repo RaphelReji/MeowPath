@@ -639,7 +639,7 @@ footer h3 {
   transition: 0.3s;
   display: non;
 }
-#recommend-card:hover{
+.recommend-card:hover{
   background-color: var(--surface-hover);
   transform: scale(1.02) translateY(-1px);
 }
@@ -684,3 +684,28 @@ footer h3 {
    margin-top: 40px;
    cursor: pointer;
 }
+
+#recommend-overflow{
+  max-height: 100vh;
+  overflow: scroll;
+}
+/* scroll bar for recommend cards*/
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
