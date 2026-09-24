@@ -248,7 +248,7 @@ a {
 #first-intro {
   padding: 30px;
 }
-#intro-hr {
+.intro-hr {
   border: 1px solid var(--border);
 }
 #second-h1 {
@@ -719,4 +719,49 @@ footer h3 {
   top: 30px;
   left: 30px;
   font-size: 18px;
+}
+
+.how-box-main-h1{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+#how-box-main-span{
+  font-size: 50px;
+  color: var(--blue);
+  font-family: 'Courier New', Courier, monospace;
+}
+.heading-how-box{
+  font-size: 20px;
+  font-weight: bold;
+}
+.p-how-box{
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+.how-box-card{
+  background-color: var(--surface);
+  width: 300px;
+  padding: 20px 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.how-box-card:hover{
+  background-color: #0b72e71c;
+  box-shadow: 10px 10px 100px rgba(255, 252, 252, 0.014);
+}
+.how-box-grid{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  margin-top: 20px;
+
+}
+#how-it-work-window{
+  margin: 20px;
 }
