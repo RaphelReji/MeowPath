@@ -637,6 +637,7 @@ footer h3 {
   padding: 10px;
   border-radius: 20px;
   transition: 0.3s;
+  margin-top: 10px;
   display: non;
 }
 .recommend-card:hover{
