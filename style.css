@@ -709,3 +709,14 @@ footer h3 {
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, 0.4);
 }
+
+.recommend-card-title{
+  display: flex;
+}
+.back-to-tutorials{
+  position: relative;
+  color: var(--button-primary-bg);
+  top: 30px;
+  left: 30px;
+  font-size: 18px;
+}
