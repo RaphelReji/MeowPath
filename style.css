@@ -583,20 +583,20 @@ footer h3 {
 }
 
 
-#recommend-grid{
+.recommend-grid{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 20px;
   justify-content: center;
   padding: 20px;
 }
-#godot-recommend-img{
+.recommend-img-thumbnail{
   width:90%;
   object-position: center;
   border-radius: 10px;
   border: 2px solid var(--text-muted);
 }
-#recommend-first-text{
+.recommend-first-text{
   background: var(--footer-border);
   width: max-content;
   padding: 5px 20px;
@@ -606,7 +606,7 @@ footer h3 {
   margin-top: 20px;
   margin-left: 20px;
 }
-#grid-time{
+.grid-time{
   display: grid;
   grid-template-columns: repeat(3,80px);
   gap:10px;
@@ -620,19 +620,19 @@ footer h3 {
   text-align: center;
   margin-top: 10px;
 }
-#recommend-h1{
+.recommend-h1{
   font-size: 25px;
   font-weight: bold;
 
 }
-#recommend-p{
+.recommend-p{
   font-size: 16px;
   font-weight: 300;
   color: var(--text-secondary);
   margin-top: 5px;
 
 }
-#recommend-card{
+.recommend-card{
   background-color: var(--surface);
   padding: 10px;
   border-radius: 20px;
@@ -643,30 +643,30 @@ footer h3 {
   background-color: var(--surface-hover);
   transform: scale(1.02) translateY(-1px);
 }
-#recommend-learn{
+.recommend-learn{
   display: grid;
   grid-template-columns: repeat(2,1fr);
  align-items: center;
  margin-top: 10px;
  gap: 5px;
 }
-#h1-whatyou{
+.h1-whatyou{
   font-size: 20px;
 }
-#learn-points{
+.learn-points{
   line-height: 25px;
   font-size: 16px;
   color: var(--text-secondary);
 }
-#after-this-h1{
+.after-this-h1{
   font-size: 22px;
 }
-#after-this-p{
+.after-this-p{
   font-size: 18px;
   color: var(--text-secondary);
   line-height: 25px;
 }
-#recommend-godot-btn{
+.recommend-watch-btn{
   padding: 10px 20px;
   border-radius: 20px;
   background-color: var(--button-primary-bg);
@@ -675,7 +675,7 @@ footer h3 {
   margin-top: 10px;
   cursor: pointer;
 }
-#showfull-godot-btn{
+.showfull-recommend-btn{
     padding: 5px 15px;
     border-radius: 10px;
    background-color: var(--button-secondary-bg);
