@@ -150,7 +150,7 @@ body {
 .brand {
   font-weight: 600;
   font-size: 18px;
-  color: #fff;
+  color: var(--text-primary);
   z-index: 1;
 }
 #brand-span {
@@ -165,18 +165,22 @@ nav {
 }
 a {
   text-decoration: none;
-  color: #f8fafc;
+  color: var(--text-primary);
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
 }
-#toggle {
+.toggle {
   font-size: 20px;
   height: 40px;
   width: 40px;
-  background-color: var(--text-tertiary);
-  border-radius: 50%;
+  background-color: var(--border-light);
+  border-radius: 30%;
   text-align: center;
   padding-top: 10px;
+  transition: 0.3;
+}
+#toggle:hover{
+  transform: scale(1.02);
 }
 
 #home-h1 {
