@@ -579,6 +579,7 @@ footer h3 {
   background-color: var(--bg-secondary);
   border: 2px solid var(--border-hover);
   border-radius: 10px;
+  padding: 10px;
 }
 
 
@@ -593,6 +594,7 @@ footer h3 {
   width:90%;
   object-position: center;
   border-radius: 10px;
+  border: 2px solid var(--text-muted);
 }
 #recommend-first-text{
   background: var(--footer-border);
@@ -634,13 +636,19 @@ footer h3 {
   background-color: var(--surface);
   padding: 10px;
   border-radius: 20px;
+  transition: 0.3s;
   display: non;
+}
+#recommend-card:hover{
+  background-color: var(--surface-hover);
+  transform: scale(1.02) translateY(-1px);
 }
 #recommend-learn{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-align-items: center;
-margin-top: 10px;
+ align-items: center;
+ margin-top: 10px;
+ gap: 5px;
 }
 #h1-whatyou{
   font-size: 20px;
@@ -665,4 +673,14 @@ margin-top: 10px;
   color: var(--button-primary-text);
   font-size: 18px;
   margin-top: 10px;
+  cursor: pointer;
+}
+#showfull-godot-btn{
+    padding: 5px 15px;
+    border-radius: 10px;
+   background-color: var(--button-secondary-bg);
+   color: var(--button-primary-text);
+   font-size: 18px;
+   margin-top: 40px;
+   cursor: pointer;
 }
