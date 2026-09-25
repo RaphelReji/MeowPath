@@ -838,6 +838,14 @@ footer h3 {
     margin-top: 6px;
     z-index: 2;
 }
+.timeline-level {
+    color: var(--text-tertiary);
+    font-size: 14px;
+}
+.timeline-content p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
 
 .timeline-content {
     background: var(--surface);
