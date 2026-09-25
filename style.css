@@ -65,7 +65,7 @@
     --bg-tertiary: #F1F5F9;
 
     /* Surfaces / Cards */
-    --surface: #FFFFFF;
+    --surface: #eeebeb;
     --surface-hover: #F8FAFC;
     --surface-active: #F1F5F9;
     --surface-elevated: #FFFFFF;
@@ -855,5 +855,15 @@ footer h3 {
     margin: 8px 0;
 }
 #h1-game-page{
+  text-align: center;
+}
+#godot-recommend-card-build{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#build-tutorials-h1{
+  font-size: 30px;
+  font-weight: bold;
   text-align: center;
 }
