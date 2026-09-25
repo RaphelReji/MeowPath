@@ -20,14 +20,11 @@
   --text-secondary: #cbd5e1;
   --text-tertiary: #94a3b8;
   --text-muted: #64748b;
-  --text-disabled: #475569;
 
   /* Primary */
   --primary: #6366f1;
   --primary-hover: #7c3aed;
   --primary-light: #8b5cf6;
-  --primary-soft: rgba(99, 102, 241, 0.12);
-  --primary-glow: rgba(99, 102, 241, 0.25);
 
   /* Blue */
   --blue: #3b82f6;
@@ -42,13 +39,6 @@
   /* Glows */
   --glow-primary: 0 0 25px rgba(99, 102, 241, 0.18);
   --glow-blue: 0 0 25px rgba(59, 130, 246, 0.18);
-  --glow-purple: 0 0 25px rgba(168, 85, 247, 0.18);
-
-  /* Inputs */
-  --input-bg: #080f1c;
-  --input-border: #263650;
-  --input-focus: #6366f1;
-  --placeholder: #64748b;
 
   /* Buttons */
   --button-primary-bg: #6366f1;
@@ -65,19 +55,6 @@
   --nav-border: #1d2a40;
   --nav-active: #8b5cf6;
   --nav-hover: #cbd5e1;
-
-  /* Footer */
-  --footer-bg: #030610;
-  --footer-border: #172238;
-
-  /* Code / Technology */
-  --code-bg: #080d19;
-  --code-border: #1d2a40;
-  --code-text: #a5b4fc;
-
-  /* Selection */
-  --selection-bg: #6366f1;
-  --selection-text: #ffffff;
 }
 
 [data-theme="light"] {
@@ -116,12 +93,6 @@
     --blue: #2563EB;
     --blue-hover: #1D4ED8;
     --blue-soft: rgba(37, 99, 235, 0.08);
-
-    /* Success / Warning / Error */
-    --success: #16A34A;
-    --warning: #D97706;
-    --error: #DC2626;
-    --info: #2563EB;
 
     /* Shadows */
     --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.06);
@@ -712,7 +683,7 @@ footer h3 {
     padding: 5px 15px;
     border-radius: 10px;
    background-color: var(--button-secondary-bg);
-   color: var(--button-primary-text);
+   color: var(--text-primary);
    font-size: 18px;
    margin-top: 40px;
    cursor: pointer;
