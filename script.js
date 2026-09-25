@@ -61,3 +61,87 @@ webBtn.addEventListener("click",function(){
     dataRecommend.style.display="none";
     hardwareRecommend.style.display="none";
 });
+
+const gameBtn=document.getElementById("choose-game-btn");
+gameBtn.addEventListener("click",function(){
+    godotRecommend.style.display="block";
+     webRecommend.style.display="none";
+    aiRecommend.style.display="none";
+    mobileRecommend.style.display="none";
+    desktopRecommend.style.display="none";
+    automationRecommend.style.display="none";
+    dataRecommend.style.display="none";
+    hardwareRecommend.style.display="none";
+});
+
+const aiBtn=document.getElementById("choose-ai-btn");
+aiBtn.addEventListener("click",function(){
+    aiRecommend.style.display="block";
+    godotRecommend.style.display="none";
+     webRecommend.style.display="none";
+    mobileRecommend.style.display="none";
+    desktopRecommend.style.display="none";
+    automationRecommend.style.display="none";
+    dataRecommend.style.display="none";
+    hardwareRecommend.style.display="none";
+});
+
+const mobileBtn=document.getElementById("choose-mobile-btn");
+mobileBtn.addEventListener("click",function(){
+      mobileRecommend.style.display="block";
+    aiRecommend.style.display="none";
+    godotRecommend.style.display="none";
+     webRecommend.style.display="none";
+    desktopRecommend.style.display="none";
+    automationRecommend.style.display="none";
+    dataRecommend.style.display="none";
+    hardwareRecommend.style.display="none";
+});
+
+const desktopBtn=document.getElementById("choose-desktop-btn");
+desktopBtn.addEventListener("click",function(){
+     desktopRecommend.style.display="block";
+     mobileRecommend.style.display="none";
+     aiRecommend.style.display="none";
+     godotRecommend.style.display="none";
+     webRecommend.style.display="none";
+     automationRecommend.style.display="none";
+     dataRecommend.style.display="none";
+     hardwareRecommend.style.display="none";
+});
+
+const automationBtn=document.getElementById("choose-automation-btn");
+automationBtn.addEventListener("click",function(){
+     automationRecommend.style.display="block";
+     desktopRecommend.style.display="none";
+     mobileRecommend.style.display="none";
+     aiRecommend.style.display="none";
+     godotRecommend.style.display="none";
+     webRecommend.style.display="none";
+     dataRecommend.style.display="none";
+     hardwareRecommend.style.display="none";
+});
+
+const dataBtn=document.getElementById("choose-data-btn");
+dataBtn.addEventListener("click",function(){
+     dataRecommend.style.display="block";
+     automationRecommend.style.display="none";
+     desktopRecommend.style.display="none";
+     mobileRecommend.style.display="none";
+     aiRecommend.style.display="none";
+     godotRecommend.style.display="none";
+     webRecommend.style.display="none";
+     hardwareRecommend.style.display="none";
+});
+
+const hardwareBtn=document.getElementById("choose-hardware-btn");
+hardwareBtn.addEventListener("click",function(){
+     hardwareRecommend.style.display="block";
+     dataRecommend.style.display="none";
+     automationRecommend.style.display="none";
+     desktopRecommend.style.display="none";
+     mobileRecommend.style.display="none";
+     aiRecommend.style.display="none";
+     godotRecommend.style.display="none";
+     webRecommend.style.display="none";
+});

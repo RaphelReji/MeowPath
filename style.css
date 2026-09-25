@@ -55,6 +55,9 @@
   --nav-border: #1d2a40;
   --nav-active: #8b5cf6;
   --nav-hover: #cbd5e1;
+
+    --footer-bg: #030610;
+    --footer-border: #172238;
 }
 
 [data-theme="light"] {
@@ -216,7 +219,7 @@ a {
   padding: 10px 20px;
   border: 1px solid var(--button-secondary-border);
   border-radius: 10px;
-  color: var(--button-primary-text);
+  color: var(--text-primary);
   font-weight: 400;
   margin-top: 20px;
   font-size: 20px;
@@ -855,15 +858,27 @@ footer h3 {
     margin: 8px 0;
 }
 #h1-game-page{
-  text-align: center;
-}
-#godot-recommend-card-build{
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#build-tutorials-h1{
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 50px;
+  text-decoration: underline var(--blue);
+}
+#godot-recommend-card-build{
+  width: 1000px;
+  transition: 0.3s;
+   margin-right: auto;
+  margin-left: auto;
+}
+#build-tutorials-h1{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.recommend-card-build{
+    background-color: var(--surface);
+  padding: 10px;
+  border-radius: 20px;
+  transition: 0.3s;
+  margin-top: 20px;
 }
