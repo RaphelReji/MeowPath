@@ -30,8 +30,11 @@ themeToggle.addEventListener("click", () => {
 //choose tutorials
 
 const godotRecommend=document.getElementById("godot-recommend-card");
+const gdscriptRecommend=document.getElementById("gdscript-recommend-card");
 const webRecommend=document.getElementById("web-recommend-card");
+const web2Recommend=document.getElementById("web2-recommend-card");
 const aiRecommend=document.getElementById("ai-recommend-card");
+const ai2Recommend=document.getElementById("ai2-recommend-card");
 const mobileRecommend=document.getElementById("mobile-recommend-card");
 const desktopRecommend=document.getElementById("desktop-recommend-card");
 const automationRecommend=document.getElementById("automation-recommend-card");
@@ -42,60 +45,75 @@ const allBtn=document.getElementById("choose-all-btn");
 allBtn.addEventListener("click",function(){
     godotRecommend.style.display="block";
     webRecommend.style.display="block";
+    web2Recommend.style.display="block";
     aiRecommend.style.display="block";
+    ai2Recommend.style.display="block";
     mobileRecommend.style.display="block";
     desktopRecommend.style.display="block";
     automationRecommend.style.display="block";
     dataRecommend.style.display="block";
     hardwareRecommend.style.display="block";
+    gdscriptRecommend.style.display="block";
 });
 
 const webBtn=document.getElementById("choose-web-btn");
 webBtn.addEventListener("click",function(){
      webRecommend.style.display="block";
+      web2Recommend.style.display="block";
     godotRecommend.style.display="none";
     aiRecommend.style.display="none";
+    ai2Recommend.style.display="none";
     mobileRecommend.style.display="none";
     desktopRecommend.style.display="none";
     automationRecommend.style.display="none";
     dataRecommend.style.display="none";
     hardwareRecommend.style.display="none";
+    gdscriptRecommend.style.display="none";
 });
 
 const gameBtn=document.getElementById("choose-game-btn");
 gameBtn.addEventListener("click",function(){
     godotRecommend.style.display="block";
+    gdscriptRecommend.style.display="block"
      webRecommend.style.display="none";
     aiRecommend.style.display="none";
+    ai2Recommend.style.display="none";
     mobileRecommend.style.display="none";
     desktopRecommend.style.display="none";
     automationRecommend.style.display="none";
     dataRecommend.style.display="none";
     hardwareRecommend.style.display="none";
+     web2Recommend.style.display="none";
 });
 
 const aiBtn=document.getElementById("choose-ai-btn");
 aiBtn.addEventListener("click",function(){
     aiRecommend.style.display="block";
+    ai2Recommend.style.display="block";
     godotRecommend.style.display="none";
      webRecommend.style.display="none";
+      web2Recommend.style.display="none";
     mobileRecommend.style.display="none";
     desktopRecommend.style.display="none";
     automationRecommend.style.display="none";
     dataRecommend.style.display="none";
     hardwareRecommend.style.display="none";
+    gdscriptRecommend.style.display="none";
 });
 
 const mobileBtn=document.getElementById("choose-mobile-btn");
 mobileBtn.addEventListener("click",function(){
       mobileRecommend.style.display="block";
     aiRecommend.style.display="none";
+    ai2Recommend.style.display="none";
     godotRecommend.style.display="none";
      webRecommend.style.display="none";
+      web2Recommend.style.display="none";
     desktopRecommend.style.display="none";
     automationRecommend.style.display="none";
     dataRecommend.style.display="none";
     hardwareRecommend.style.display="none";
+    gdscriptRecommend.style.display="none";
 });
 
 const desktopBtn=document.getElementById("choose-desktop-btn");
@@ -103,11 +121,14 @@ desktopBtn.addEventListener("click",function(){
      desktopRecommend.style.display="block";
      mobileRecommend.style.display="none";
      aiRecommend.style.display="none";
+     ai2Recommend.style.display="none";
      godotRecommend.style.display="none";
      webRecommend.style.display="none";
+      web2Recommend.style.display="none";
      automationRecommend.style.display="none";
      dataRecommend.style.display="none";
      hardwareRecommend.style.display="none";
+     gdscriptRecommend.style.display="none";
 });
 
 const automationBtn=document.getElementById("choose-automation-btn");
@@ -116,10 +137,13 @@ automationBtn.addEventListener("click",function(){
      desktopRecommend.style.display="none";
      mobileRecommend.style.display="none";
      aiRecommend.style.display="none";
+     ai2Recommend.style.display="none";
      godotRecommend.style.display="none";
      webRecommend.style.display="none";
+      web2Recommend.style.display="none";
      dataRecommend.style.display="none";
      hardwareRecommend.style.display="none";
+     gdscriptRecommend.style.display="none";
 });
 
 const dataBtn=document.getElementById("choose-data-btn");
@@ -129,9 +153,12 @@ dataBtn.addEventListener("click",function(){
      desktopRecommend.style.display="none";
      mobileRecommend.style.display="none";
      aiRecommend.style.display="none";
+     ai2Recommend.style.display="none";
+      web2Recommend.style.display="none";
      godotRecommend.style.display="none";
      webRecommend.style.display="none";
      hardwareRecommend.style.display="none";
+     gdscriptRecommend.style.display="none";
 });
 
 const hardwareBtn=document.getElementById("choose-hardware-btn");
@@ -142,6 +169,9 @@ hardwareBtn.addEventListener("click",function(){
      desktopRecommend.style.display="none";
      mobileRecommend.style.display="none";
      aiRecommend.style.display="none";
+     ai2Recommend.style.display="none";
+      web2Recommend.style.display="none";
      godotRecommend.style.display="none";
      webRecommend.style.display="none";
+     gdscriptRecommend.style.display="none";
 });
