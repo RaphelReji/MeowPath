@@ -1001,3 +1001,18 @@ footer h3 {
   margin-left: auto;
   margin-right: auto;
 }
+#game-timeline{
+  margin-left:100px;
+}
+#game-page-tuto1{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#game-page-tuto2{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+   margin-bottom: 40px;
+}
