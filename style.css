@@ -784,6 +784,7 @@ footer h3 {
 .fadeUp{
   animation: fadeUp both;
   animation-timeline: view();
+  animation-range: entry 0% cover 25%;
 }
 @keyframes fadeUp {
   from {
@@ -884,7 +885,7 @@ footer h3 {
   text-align: center;
 }
 .recommend-card-build{
-    background-color: var(--surface);
+  background-color: var(--surface);
   padding: 10px;
   border-radius: 20px;
   transition: 0.3s;
