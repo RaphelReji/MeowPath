@@ -948,7 +948,7 @@ footer h3 {
   padding: 20px;
   border-radius: 10px;
   border: 2px solid var(--border);
-  margin-top: 10px;
+  margin-top: 20px;
 }
 #filiter-hc-card-h1{
   font-size: 20px;
@@ -958,4 +958,32 @@ footer h3 {
   font-size: 16px;
   color: var(--text-secondary);
   margin-top: 5px;
+}
+
+#filiter-suggestion-card{
+  background-color: var(--surface);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid var(--border);
+  margin-top: 20px;
+}
+#filiter-suggestion-card-h1{
+   font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#mail-btn{
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: var(--button-primary-bg);
+  color: var(--button-primary-text);
+  font-size: 18px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
 }
