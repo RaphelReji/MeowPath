@@ -891,3 +891,52 @@ footer h3 {
   transition: 0.3s;
   margin-top: 20px;
 }
+
+#filiter-tech-card{
+  background-color: var(--surface);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid var(--border);
+}
+
+#filiter-tech-card-h1{
+  font-size: 25px;
+  font-weight: bold;
+}
+#filiter-tech-card-level-h1{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+#filiter-tech-card-level-grid{
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+#filiter-tech-card-level-card{
+  width:fit-content;
+  margin-top: 10px;
+}
+.filiter-tech-card-level-btn{
+ background-color: var(--surface);
+ border-radius: 10px;
+ border: 1px solid var(--border);
+ padding: 5px 10px;
+}
+#filiter-tech-card-lang-h1{
+    font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.filiter-tech-card-lang-box{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: var(--primary);
+  font-weight: 500;
+}
