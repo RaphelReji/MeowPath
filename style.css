@@ -909,12 +909,12 @@ footer h3 {
 #filiter-tech-card-level-h1{
   font-size: 20px;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top:10px;
 }
 #filiter-tech-card-level-grid{
   width: fit-content;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   gap: 10px;
   margin-top: 10px;
 }
@@ -927,11 +927,18 @@ footer h3 {
  border-radius: 10px;
  border: 1px solid var(--border);
  padding: 5px 10px;
+ transition: 0.3s;
+}
+.filiter-tech-card-level-btn:hover{
+  background-color: var(--surface-elevated);
+  color: var(--blue);
+  font-weight:bold;
+  transform: scale(1.03) translateY(-5px);
 }
 #filiter-tech-card-lang-h1{
     font-size: 20px;
   font-weight: 400;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .filiter-tech-card-lang-box{
   display: flex;
@@ -939,6 +946,12 @@ footer h3 {
   margin-top: 10px;
   color: var(--primary);
   font-weight: 500;
+  transition: 0.3s;
+}
+.filiter-tech-card-lang-box:hover{
+  transform: scale(1.03) translateY(-10px);
+  box-shadow: 10px 10px 30px var(--primary);
+  font-weight: 700;
 }
 #filiter-hc-card{
  background-color: var(--surface);
@@ -949,6 +962,14 @@ footer h3 {
   border-radius: 10px;
   border: 2px solid var(--border);
   margin-top: 20px;
+  transition: 0.3s;
+}
+#filiter-hc-card:hover{
+  transform: scale(1.02) translateY(-10px);
+  #filiter-hc-card-p a{
+    font-size: 25px;
+    color: rgb(247, 78, 78);
+  }
 }
 #filiter-hc-card-h1{
   font-size: 20px;
@@ -958,6 +979,7 @@ footer h3 {
   font-size: 16px;
   color: var(--text-secondary);
   margin-top: 5px;
+  transition: 0.3s;
 }
 
 #filiter-suggestion-card{
@@ -986,6 +1008,13 @@ footer h3 {
   width: max-content;
   margin-left: auto;
   margin-right: auto;
+  transition: 0.3s;
+}
+#mail-btn:hover{
+  background-color: var(--surface-hover);
+  border: 2px solid var(--border-hover);
+  padding: 15px 30px;
+  border-radius: 20px;
 }
 #web-timeline{
   margin-left:100px;
