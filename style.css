@@ -861,6 +861,11 @@ footer h3 {
     box-shadow: 0 0 30px var(--button-primary-bg);
     transform: translateX(8px);
 }
+#timeline-content-path:hover{
+    border-color: var(--border-hover);
+    box-shadow: 0 0 30px #fad501d5;
+    transform: translateX(8px);
+}
 .timeline-content h3 {
     color: var(--text-primary);
     font-size: 28px;
@@ -1044,4 +1049,17 @@ footer h3 {
   margin-right: auto;
   margin-top: 20px;
    margin-bottom: 40px;
+}
+#choose-timeline{
+width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+#choose-h1{
+  text-align: center;
+  font-size: 60px;
+}
+#choose-p{
+  text-align: center;
 }
