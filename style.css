@@ -888,6 +888,10 @@ footer h3 {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+  transition: 0.3s;
+}
+#build-tutorials-h1:hover{
+  color: var(--blue);
 }
 .recommend-card-build{
   background-color: var(--surface);
@@ -1062,4 +1066,24 @@ width: max-content;
 }
 #choose-p{
   text-align: center;
+}
+
+.recommend-card-build:hover{
+ transform: scale(1.03) translateY(-10px);
+ background-color: var(--surface-hover);
+}
+
+.recommend-card-page{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: var(--surface);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.recommend-card-page:hover{
+  background-color: var(--surface-hover);
+  transform: scale(1.03);
 }
