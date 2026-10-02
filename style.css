@@ -1129,3 +1129,32 @@ transition: 0.3s;
 #tutorial-img-coding:hover{
   transform: scale(1.03) translateX(-10px);
 }
+#about-grid{
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  justify-content: center;
+  align-items: center;
+}
+#about-page-h1{
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+}
+#q-about-span{
+  color: var(--blue);
+  font-size: 100px;
+}
+#about-page-card{
+  background-color: var(--surface);
+  width: 1000px;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-left: auto;
+  margin-right: auto;
+}
+#about-page-card:hover{
+  padding: 10px 20px;
+  transform: scale(1.04);
+}
