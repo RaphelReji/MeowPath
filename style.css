@@ -1156,5 +1156,16 @@ transition: 0.3s;
 }
 #about-page-card:hover{
   padding: 10px 20px;
-  transform: scale(1.04);
+}
+#support-btn{
+   display: flex;
+     align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--bg-tertiary);
+    color: var(--text-secondary);
+    margin-top: 20px;
+    border-radius: 5px;
 }
