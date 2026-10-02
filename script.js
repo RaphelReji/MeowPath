@@ -175,3 +175,33 @@ hardwareBtn.addEventListener("click",function(){
      webRecommend.style.display="none";
      gdscriptRecommend.style.display="none";
 });
+
+const htmlFilter=document.getElementById("filiter-tech-card-lang-box-html");
+htmlFilter.addEventListener("click",function(){
+   webRecommend.style.display="block";
+      web2Recommend.style.display="none";
+    godotRecommend.style.display="none";
+    aiRecommend.style.display="none";
+    ai2Recommend.style.display="none";
+    mobileRecommend.style.display="none";
+    desktopRecommend.style.display="none";
+    automationRecommend.style.display="none";
+    dataRecommend.style.display="none";
+    hardwareRecommend.style.display="none";
+    gdscriptRecommend.style.display="none";
+});
+
+const cssFilter=document.getElementById("filiter-tech-card-lang-box-css");
+cssFilter.addEventListener("click",function(){
+    webRecommend.style.display="block";
+    web2Recommend.style.display="none";
+    godotRecommend.style.display="none";
+    aiRecommend.style.display="none";
+    ai2Recommend.style.display="none";
+    mobileRecommend.style.display="none";
+    desktopRecommend.style.display="none";
+    automationRecommend.style.display="none";
+    dataRecommend.style.display="none";
+    hardwareRecommend.style.display="none";
+    gdscriptRecommend.style.display="none";
+});
