@@ -205,3 +205,18 @@ cssFilter.addEventListener("click",function(){
     hardwareRecommend.style.display="none";
     gdscriptRecommend.style.display="none";
 });
+
+const jsFilter=document.getElementById("filiter-tech-card-lang-box-js");
+jsFilter.addEventListener("click",function(){
+    webRecommend.style.display="none";
+    web2Recommend.style.display="block";
+    godotRecommend.style.display="none";
+    aiRecommend.style.display="none";
+    ai2Recommend.style.display="none";
+    mobileRecommend.style.display="none";
+    desktopRecommend.style.display="none";
+    automationRecommend.style.display="none";
+    dataRecommend.style.display="none";
+    hardwareRecommend.style.display="none";
+    gdscriptRecommend.style.display="none";
+});

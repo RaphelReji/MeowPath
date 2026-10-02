@@ -185,6 +185,16 @@ a {
   transform: scale(1.02);
 }
 
+#main-page-first-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#index-image{
+  width: 300px;
+  position:absolute;
+  right:100px ;
+  top:130px;
+}
 #home-h1 {
   font-size: 50px;
   font-weight: bold;
@@ -583,6 +593,12 @@ footer h3 {
   padding: 5px 10px;
   margin-left: auto;
   margin-right: auto;
+  transition: 0.3s;
+}
+.tutorial-choose-grid-box:hover{
+  transform: scale(1.03) translateY(-10px);
+  background-color: var(--surface-elevated);
+  border: 2px solid var(--border);
 }
 .tutorial-choose-img{
   width: 48px;
@@ -692,6 +708,11 @@ footer h3 {
   font-size: 18px;
   margin-top: 10px;
   cursor: pointer;
+  transition: 0.3s;
+}
+.recommend-watch-btn:hover{
+  transform: scale(1.02) ;
+  background-color: var(--button-primary-hover);
 }
 .showfull-recommend-btn{
     padding: 5px 15px;
@@ -701,6 +722,11 @@ footer h3 {
    font-size: 18px;
    margin-top: 40px;
    cursor: pointer;
+   transition: 0.3s;
+}
+.showfull-recommend-btn:hover{
+  background-color: var(--surface);
+  padding: 10px 20px;
 }
 
 #recommend-overflow{
@@ -1086,4 +1112,11 @@ width: max-content;
 .recommend-card-page:hover{
   background-color: var(--surface-hover);
   transform: scale(1.03);
+}
+#tutorial-img-coding{
+width: 300px;
+transition: 0.3s;
+}
+#tutorial-img-coding:hover{
+  transform: scale(1.03) translateX(-10px);
 }
