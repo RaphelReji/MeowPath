@@ -4,12 +4,10 @@
 <!-- HEADER -->
 <br />
 <div align="center">
-	<a href="https://github.com/BudzioT/Godot_Super-Wakatime">
-		<img src="assets/images/meow.png" alt="Godot Wakatime"/>
-	</a>
+		<img src="assets/images/meow.png" alt="Meow path"/>
 	<h1 align="center">MeowPath </h1>
 	<p align="center">
-		A  beginner friendly website  to find free and best tutorials for software and hardware projects and more
+		Introducing MeowPath,a website for beginners to help to find the tutorials for software and also in hardware.
 		<br />
 		You can find different tutorials in this!
 		<br />
@@ -44,29 +42,33 @@
 </details>
 
 
+## Live Demo
+
+[Open the live website](https://raphelreji.github.io/Builder-Signal/)
+
+
 <!-- ABOUT -->
 ## About The Project
 <br />
 
-![home](assets/images/home.png)
-![home](assets/images/build.png)
-![home](assets/images/tuto.png)
+![home page](assets/images/home.png)
+![build page](assets/images/build.png)
+![tutorial page](assets/images/tuto.png)
 
-This website will help you to find best and awesome tutorials
+This website will help you to find tutorials
 <br />
 Here's why:
-* It has best youtube tutorials
 * Selected with views,comments etc...
-* It has 4 main pages and lot of subpages
-* It has Toogle
+* The website is divided into sections for choosing a learning goal, browsing tutorials, and exploring what can be built.
+* It has Toggle
 * It has tutorial filter box
 * Details about what you can build
-* In the future it will also have ai to help
+* responsive UI
 
 <p align="right">(<a href="#readme-top">top</a>)</p>
 
 ### Built Using
-I used the HTML,CSS and JS!<br />
+I used the HTML,CSS and little bit of js for only the filter! happy to use these three as i know something<br />
 * HTML
 * CSS
 * JAVASCRIPT
@@ -89,6 +91,18 @@ How to download and edit this ? It's easy!
 
 <p align="right">(<a href="#readme-top">top</a>)</p>
 
+
+
+## Credits
+![credit](assets/images/artibute.png)
+ - images from storyset [Open storyset](https://storyset.com/)
+ - icons:Taken from icon8 [Open icon8](https://icons8.com/)
+
+
+## Research/inspiration
+
+* Reddit suggestions
+*  from youtube
 <!-- LICENSE -->
 ## License
 
