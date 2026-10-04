@@ -44,7 +44,7 @@
 
 ## Live Demo
 
-[Open the live website](https://raphelreji.github.io/Builder-Signal/)
+[Open the live website](https://raphelreji.github.io/MeowPath/)
 
 
 <!-- ABOUT -->
@@ -83,7 +83,7 @@ How to download and edit this ? It's easy!
  you can manually install it, here's how to do it!
 1. Clone the repository
 	```sh
-	git clone https
+	git clone https https://github.com/RaphelReji/MeowPath.git
 	```
 2. Open the project folder in VS Code or any code editor.
 
