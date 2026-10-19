@@ -27,6 +27,33 @@ themeToggle.addEventListener("click", () => {
 
 });
 
+
+// Find My Path
+
+const webpathBtn = document.getElementById("web-btn-path");
+const gamepathBtn = document.getElementById("game-btn-path");
+const apppathBtn = document.getElementById("app-btn-path");
+const pathResult = document.getElementById("path-result");
+
+if (webpathBtn && gamepathBtn && apppathBtn && pathResult) {
+
+    webpathBtn.addEventListener("click", function() {
+        pathResult.textContent =
+            "Your path is Web Development! Start with HTML and CSS.";
+    });
+
+    gamepathBtn.addEventListener("click", function() {
+        pathResult.textContent =
+            "Your path is Game Development! Start with Godot.";
+    });
+
+    apppathBtn.addEventListener("click", function() {
+        pathResult.textContent =
+            "Your path is App Development! Start with JavaScript.";
+    });
+
+}
+
 //choose tutorials
 
 const godotRecommend=document.getElementById("godot-recommend-card");
