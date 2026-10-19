@@ -277,10 +277,18 @@ a:hover{
   font-size: 25px;
   color: var(--text-primary);
   text-transform: capitalize;
+  transition: 0.3s;
+}
+#second-h1:hover{
+  transform: translateY(-10px);
 }
 #second-p {
   text-align: center;
   font-weight: 400;
+  transition: 0.3s;
+}
+#second-p:hover{
+  transform: translateX(-10px);
 }
 
 .select-card {
@@ -324,6 +332,13 @@ a:hover{
 .select-card-btn {
   color: var(--blue);
   text-align: start;
+  transition: 0.3s;
+}
+.select-card-btn:hover{
+  transform: scale(1.04) translateX(10px);
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 #home-cards {
@@ -1098,9 +1113,17 @@ width: max-content;
 #choose-h1{
   text-align: center;
   font-size: 60px;
+  transition: 0.3s;
+}
+#choose-h1:hover{
+  color: var(--blue);
 }
 #choose-p{
   text-align: center;
+  transition: 0.3s;
+}
+#choose-p:hover{
+  transform: translateY(-10px);
 }
 
 .recommend-card-build:hover{
