@@ -1192,3 +1192,22 @@ transition: 0.3s;
     margin-top: 20px;
     border-radius: 5px;
 }
+#choose-questions{
+  width: max-content;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid var(--border-hover);
+  border-radius: 10px;
+  transition: 0.3s;
+}
+#choose-questions:hover{
+  padding: 20px;
+}
+#choose-q-h1{
+  color: var(--blue);
+}
+.path-btn{
+  padding: 10px 20px;
+  background-color: var(--button-primary-bg);
+  margin: 10px;
+}
